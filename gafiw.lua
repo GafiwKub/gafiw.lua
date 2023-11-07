@@ -2408,7 +2408,7 @@ Raid:Toggle("Auto Farm Raid",false,function(value)
                             if v.Name == "Fish Bandit" or v.Name == "Speed Fish" or v.Name == "Cool Fish" or v.Name == "Sleepy Fish" or v.Name == "Fish Buffer" or v.Name == "Fish Boss" or v.Name == "Sky Cave" or v.Name == "Rabbit Cave" or v.Name == "Sky Buff" or v.Name == "Speed Cave" or v.Name == "Cave Dragon" or v.Name == "Cave Boss" or v.Name == "Door"  then
                                 if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
                                     repeat task.wait()
-                                        _G.NotEquip = true	
+                                        _G.NotEquip = false	
                                         v.HumanoidRootPart.Size = Vector3.new(35,35,35)
                                         v.HumanoidRootPart.Transparency = 0.8                             
                                         TP(v.HumanoidRootPart.CFrame * Nframe  * CFrame.Angles(math.rad(-90),0,0))
@@ -2499,7 +2499,7 @@ end
 end
     
     
-  S:Label("✄1�7 Misc Shop✄1�7")
+  S:Label("Misc Shop")
     
     S:Button("Random Reall Fruit 3Gem", function()
         TP(CFrame.new(-815.3197021484375, 99900.6015625, -1697.9193115234375))
