@@ -46,7 +46,7 @@ SOMEXHUBMODILE.Name = "SOMEXHUBMODILE"
         MODILEMAGE.BorderSizePixel = 0
         MODILEMAGE.Position = UDim2.new(0, 3, 0, 2)
         MODILEMAGE.Size = UDim2.new(0, 45, 0, 45)
-        MODILEMAGE.Image = "http://www.roblox.com/asset/?id=14395120725"
+        MODILEMAGE.Image = "http://www.roblox.com/asset/?id=15290644766"
 
 do local GUI = game.CoreGui:FindFirstChild("SOMEXHUB");if GUI then GUI:Destroy();end;if _G.Color == nil then
        _G.Color = Color3.fromRGB(50,255,255)
@@ -238,7 +238,7 @@ local LogoHub = Instance.new("ImageLabel")
 	LogoHub.BackgroundTransparency = 1.000
 	LogoHub.Position = UDim2.new(0, 0, 0, 1)
 	LogoHub.Size = UDim2.new(0, 150, 0, 150)
-	LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(14395120725)
+	LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(15290644766)
 
 	local ScrollTab = Instance.new("ScrollingFrame")
 	ScrollTab.Name = "ScrollTab"
@@ -548,7 +548,7 @@ local LogoToggle = Instance.new("ImageLabel")
 	LogoToggle.BackgroundTransparency = 1.000
 	LogoToggle.Position = UDim2.new(0, 7, 0, 2)
 	LogoToggle.Size = UDim2.new(0, 26, 0, 26)
-	LogoToggle.Image = "http://www.roblox.com/asset/?id="..tostring(14395120725)
+	LogoToggle.Image = "http://www.roblox.com/asset/?id="..tostring(15290644766)
 
 			Circle.Name = "Circle"
 			Circle.Parent = ToggleImage
@@ -647,7 +647,7 @@ local LogoToggle = Instance.new("ImageLabel")
 			DropImage.Position = UDim2.new(0, 435, 0, 6)
 			DropImage.Rotation = 180.000
 			DropImage.Size = UDim2.new(0, 20, 0, 20)
-			DropImage.Image = "rbxassetid://10162644180"
+			DropImage.Image = "rbxassetid://15290644766"
 			
 			DropButton.Name = "DropButton"
 			DropButton.Parent = Dropdown
@@ -1043,7 +1043,7 @@ local LogoToggle = Instance.new("ImageLabel")
 			local PaddingLabel = Instance.new("UIPadding")
 			local labelfunc = {}
 	
-			Label.Name = "GAFIW"
+			Label.Name = "Label"
 			Label.Parent = MainFramePage
 			Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Label.BackgroundTransparency = 1.000
@@ -1205,7 +1205,7 @@ end)
 		New_World = true
 	end
 	
-local Library = Update:Window("GAFIW","14395120725",Enum.KeyCode.RightControl);
+local Library = Update:Window("GAFIW","15290248296",Enum.KeyCode.RightControl);
 
 Main = Library:Tab("Main",6026568198)
 Ss = Library:Tab("Stats",7040410130)
@@ -1215,15 +1215,16 @@ Raid = Library:Tab("Raid",11155986081)
 S = Library:Tab("Buy Item",6031265976)
 Misc = Library:Tab("Misc",11156061121)
 Set = Library:Tab("Setting","6034509993")
+S2 = Library:Tab("Buy Item would 2",1031095975)
 
 Main:Seperator("Credit")
     
 Main:Label("Script By Natthaphon Phuangphila ")
 
-Main:Label("Discord Developer Account Name Gafiw ")
-Main:Label("Discord Developer Display Name (" Gafiw ")
+Main:Label("Discord Developer Account Name @GAFIW ")
+Main:Label("Discord Developer Display Name GAFIW ")
 
-Main:Button("Copy Facebook Owner ",function()
+Main:Button("Copy FACEBOOK  Owner GAFIW",function()
 setclipboard("https://www.facebook.com/GAFIWz15y?mibextid=ZbWKwL")
 end)
 
@@ -1281,7 +1282,7 @@ Time = Main:Label("Server Time")
         end
     end)
     
-    Main:Seperator("๐—ฝBoss Farm๐—ฝ")
+    Main:Seperator("🗽Boss Farm🗽")
     
     
 local Boss = {}
@@ -1358,7 +1359,7 @@ spawn(function()
 	end
 end)
 
-    Main:Seperator("๐คผEnemies Farm๐คผ")
+    Main:Seperator("🤼Enemies Farm🤼")
     
     Main:Toggle("Auto Farm Bandit",false,function(value)
         BanditF = value
@@ -1876,18 +1877,18 @@ end)
     
     Main:Line()
 
-Ss:Seperator("๐“Stats๐“")
+Ss:Seperator("📉Stats📉")
 
-Ss:Toggle("Melee ๐‘",false,function(Value)
+Ss:Toggle("Melee 👊",false,function(Value)
 melee = Value    
 end)
-Ss:Toggle("Defense๐’ช",false,function(value)
+Ss:Toggle("Defense💪",false,function(value)
 defense = value
 end)
-Ss:Toggle("Sword๐—ก๏ธ1๏ฟฝ7",false,function(value)
+Ss:Toggle("Sword🗡︄1�7",false,function(value)
 sword = value
 end)
-Ss:Toggle("Con Power๐",false,function(value)
+Ss:Toggle("Con Power🍎",false,function(value)
 Conpower = value
 end)
 
@@ -1936,7 +1937,7 @@ end)
     PointStats = value
     end)
 
-Mis:Seperator("๐World 2 Quest๐")
+Mis:Seperator("🌍World 2 Quest🌍")
     
     Mis:Toggle("Teleport To Map",false,function(value)
         TpMap = value
@@ -1954,7 +1955,7 @@ Mis:Seperator("๐World 2 Quest๐")
     end
     end)
 
-Mis:Seperator("๐God Dragon๐")
+Mis:Seperator("🐉God Dragon🐉")
 
 local Dargon = Mis:Label("Status")
 
@@ -2005,7 +2006,7 @@ Mis:Toggle("Auto Farm God Dragon",false,function(value)
         end
     end)
     
-    Mis:Toggle("Auto Teleport Egg (เธ–เนเธฒเน€เธเธญ Telepote Egg เธเธฐเธซเธขเธธเธ”เธเธฒเธฃเนเธ1๏ฟฝ7)",false,function(value)
+    Mis:Toggle("Auto Teleport Egg (ถ้าเจอ Telepote Egg จะหยุดฟาร์ม)",false,function(value)
         FarmTeleportEgg = value
         StardFarm = value
     end)
@@ -2062,7 +2063,7 @@ Mis:Toggle("Auto Farm God Dragon",false,function(value)
 		end)
 	end)
 
-    Mis:Seperator("๐”ฅBoss S๐”ฅ")
+    Mis:Seperator("🔥Boss S🔥")
 
 local BossS = Mis:Label("Status")
 
@@ -2112,7 +2113,7 @@ Mis:Toggle("Auto Farm Boss S",false,function(value)
         end
     end)
     
-    Mis:Seperator("โจLight Awakenโ1๏ฟฝ7")
+    Mis:Seperator("✨Light Awaken✄1�7")
     
     local Light = Mis:Label("Status")
 
@@ -2186,7 +2187,7 @@ Mis:Toggle("Auto Farm Boss S",false,function(value)
 		end)
 	end)
 	
-    Mis:Seperator("๐ฆJaoTaLay๐ฆ")
+    Mis:Seperator("🦎JaoTaLay🦎")
     
     local JaoTaLay = Mis:Label("Status")
 
@@ -2240,7 +2241,7 @@ Mis:Toggle("Auto Farm Boss S",false,function(value)
     
     Mis:Label("Status: NewWrold")
     
-    Mis:Seperator("โกTunder Con Awakenโ1๏ฟฝ7")
+    Mis:Seperator("⚡Tunder Con Awaken⚄1�7")
     
     local Thunder_God = Mis:Label("Status")
 
@@ -2290,99 +2291,8 @@ Mis:Toggle("Auto Farm Boss S",false,function(value)
         end
     end)
     
-    Mis:Seperator("๐Halloween Event๐")
     
-    local CandyC = Mis:Label("")
-    
-    spawn(function()
-        while wait() do
-            pcall(function()
-                CandyC:Set("Total Candy : "..math.floor(game:GetService("Players").LocalPlayer.Data.Candy.Value))
-            end)
-        end
-    end)
-    
-    Mis:Toggle("Auto Farm Candy ๐ฌ",false,function(value)
-        AutoFarmCandy = value
-    end)
-    
-    
-    spawn(function()
-        while wait() do
-            if AutoFarmCandy then
-                pcall(function()
-                    if workspace.Monster.Ween:FindFirstChild("Ween") then
-                        for i,v in pairs(workspace.Monster.Ween:GetChildren()) do
-                            if v.Name == "Ween" then
-                                if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
-                                    repeat task.wait()
-                                        EquipWeapon(_G.SelectWeapon)
-                                        v.HumanoidRootPart.Size = Vector3.new(80,80,80)                             
-                                        TP(v.HumanoidRootPart.CFrame * MethodFarm)
-                                        game:GetService'VirtualUser':CaptureController()
-                                        game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672),game:GetService("Workspace").Camera.CFrame)
-                                    until not AutoFarmCandy or not v.Parent or v.Humanoid.Health <= 0
-                                end
-                            end
-                        end
-                    else
-                        if game:GetService("ReplicatedStorage"):FindFirstChild("Ween") then
-                            TP(game:GetService("ReplicatedStorage"):FindFirstChild("Ween").HumanoidRootPart.CFrame * CFrame.new(5,10,2))
-                        end
-                    end
-                end)
-            end
-        end
-    end)
-    
-    Mis:Toggle("Auto Farm Halloween Master",false,function(value)
-        AutoFarmHaloweenBoss = value
-    end)
-    
-    
-    spawn(function()
-        while wait() do
-            if AutoFarmHaloweenBoss then
-                pcall(function()
-                    if workspace.Monster.Boss["Halloween boss"]:FindFirstChild("Halloween master") or workspace.Monster.Boss["Halloween boss"]:FindFirstChild("Halloween chill") then
-                        for i,v in pairs(workspace.Monster.Boss["Halloween boss"]:GetChildren()) do
-                            if v.Name == "Halloween master" or v.Name == "Halloween chill" then
-                                if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
-                                    repeat task.wait()
-                                        EquipWeapon(_G.SelectWeapon)
-                                        v.HumanoidRootPart.Size = Vector3.new(80,80,80)                             
-                                        TP(v.HumanoidRootPart.CFrame * MethodFarm)
-                                        game:GetService'VirtualUser':CaptureController()
-                                        game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672),game:GetService("Workspace").Camera.CFrame)
-                                    until not AutoFarmHaloweenBoss or not v.Parent or v.Humanoid.Health <= 0
-                                end
-                            end
-                        end
-                    else
-                        if game:GetService("ReplicatedStorage"):FindFirstChild("Halloween master") then
-                            TP(game:GetService("ReplicatedStorage"):FindFirstChild("Halloween master").HumanoidRootPart.CFrame * CFrame.new(5,10,2))
-                        end
-                    end
-                end)
-            end
-        end
-    end)
-    
-    Mis:Button("Buy Gem 100 Candy ๐ฌ", function()
-        TP(CFrame.new(-7005.84130859375, 189.29364013671875, 4193.97900390625))
-    end)
-    
-    Mis:Button("Buy Lantern 150 Candy๐ฌ", function()
-        TP(CFrame.new(-7255.30810546875, 267.8546142578125, 3813.24951171875))
-    end)
-    
-    Mis:Button("Buy Haloween Boss Key 1500 Candy๐ฌ", function()
-        TP(CFrame.new(-6891.05517578125, 565.8321533203125, 4014.71142578125))
-    end)
-    
-    Mis:Line()
-    
-    TPI:Seperator("๐€Teleport๐€")
+    TPI:Seperator("🌀Teleport🌀")
     
 if Old_World then
     TPI:Button("Start Island", function()
@@ -2401,7 +2311,7 @@ if Old_World then
         TP(CFrame.new(-3112.943115234375, 112.6680908203125, 4893.70654296875))
     end)
     
-    TPI:Button("เน1๏ฟฝ7เธเธฒเธฐเธเธญเธชเธกเธญเธเธเธฃเธญเธเธเนเธฒ", function()
+    TPI:Button("ไ1�7กาะบอสมอนฟรอบป้า", function()
         TP(CFrame.new(1768.1092529296875, 21.81130027770996, 2675.236572265625))
     end)
     
@@ -2433,7 +2343,7 @@ if Old_World then
         TP(CFrame.new(1728.5831298828125, 28.026504516601562, -915.1522216796875))
     end)
     
-    TPI:Button("เน1๏ฟฝ7เธเธฒเธฐเธ•เนเธเธกเธฐเธเธฃเนเธฒเธ1๏ฟฝ7", function()
+    TPI:Button("ไ1�7กาะต้นมะพร้าค1�7", function()
         TP(CFrame.new(3504.190673828125, 105.4891128540039, -1331.763916015625))
     end)
     
@@ -2465,8 +2375,12 @@ elseif New_World then
         TP(CFrame.new(-2471.54345703125, -6.456438064575195, 2055.71728515625))
     end)
     
-    TPI:Button("Haloween", function()
-        TP(CFrame.new(-7105.50830078125, 24.857223510742188, 3903.760986328125))
+    TPI:Button("Yoku and samok", function()
+        TP(CFrame.new(-3334.44531, 39.4478188, 3121.51025, 1, 0, 0, 0, 1, 0, 0, 0, 1))
+    end)
+    
+    TPI:Button("sakura", function()
+        TP(CFrame.new(1579.78381, 2.00321937, -2411.90796, 1, 0, 0, 0, 1, 0, 0, 0, 1))
     end)
     
         TPI:Button("Watter island", function()
@@ -2478,8 +2392,8 @@ if New_World then
     Raid:Label("soon")
 end
 
-if Old_World then
-Raid:Seperator("๐๏ธRaid Only๐๏ธ1๏ฟฝ7")
+if New_World then
+Raid:Seperator("Raid sea 2")
 
 Raid:Toggle("Auto Farm Raid",false,function(value)
         FRaid = value
@@ -2489,12 +2403,12 @@ Raid:Toggle("Auto Farm Raid",false,function(value)
         while wait() do
             if FRaid then
                 pcall(function()
-                    if workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Glow Bandit") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("The Green") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Beach boss") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Want to go Beach") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Man with green shirt") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Fire Usuer Boss") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Brick can walk") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Weird Shirt") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Lava Max") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("ForceField mon") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("The Iron") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("God of Haki") or workspace.Island["Normal Raid"]["Raid Monster"]:FindFirstChild("Haki Iron") then
-                        for i,v in pairs(workspace.Island["Normal Raid"]["Raid Monster"]:GetChildren()) do
-                            if v.Name == "Glow Bandit" or v.Name == "The Green" or v.Name == "Beach boss" or v.Name == "Want to go Beach" or v.Name == "Man with green shirt" or v.Name == "Fire Usuer Boss" or v.Name == "Brick can walk" or v.Name == "Weird Shirt" or v.Name == "Lava Max" or v.Name == "ForceField mon" or v.Name == "The Iron" or v.Name == "God of Haki" or v.Name == "Haki Iron"  then
+                    if workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Fish Bandit") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Speed Fish") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Cool Fish") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Sleepy Fish") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Fish Buffer") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Fish Boss") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Sky Cave") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Rabbit Cave") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Sky Buff") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Speed Cave") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Cave Dragon") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Cave Boss") or workspace.Island["Sea Raid"]["Raid Monster"]:FindFirstChild("Door") then
+                        for i,v in pairs(workspace.Island["Sea Raid"]["Raid Monster"]:GetChildren()) do
+                            if v.Name == "Fish Bandit" or v.Name == "Speed Fish" or v.Name == "Cool Fish" or v.Name == "Sleepy Fish" or v.Name == "Fish Buffer" or v.Name == "Fish Boss" or v.Name == "Sky Cave" or v.Name == "Rabbit Cave" or v.Name == "Sky Buff" or v.Name == "Speed Cave" or v.Name == "Cave Dragon" or v.Name == "Cave Boss" or v.Name == "Door"  then
                                 if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
                                     repeat task.wait()
-                                        _G.NotEquip = false
+                                        _G.NotEquip = true	
                                         v.HumanoidRootPart.Size = Vector3.new(35,35,35)
                                         v.HumanoidRootPart.Transparency = 0.8                             
                                         TP(v.HumanoidRootPart.CFrame * Nframe  * CFrame.Angles(math.rad(-90),0,0))
@@ -2530,13 +2444,13 @@ Raid:Toggle("Auto Farm Raid",false,function(value)
             end
         end) 
              
-for i,v in pairs(workspace.Island["Normal Raid"]["Raid Monster"]:GetChildren()) do
+for i,v in pairs(workspace.Island["Sea Raid"]["Raid Monster"]:GetChildren()) do
     v.HumanoidRootPart.Size = Vector3.new(35, 35, 35)
     v.HumanoidRootPart.Transparency = 0.7
 end
 
     Raid:Button("Teleport To Raid", function()
-    TP(CFrame.new(239.0337371826172, 37.64043045043945, 1880.182373046875))
+    TP(CFrame.new(-3620.48242, 88.8300018, -1417.31335, -0.994287908, -0.105106279, 0.0185547136, 4.4106313e-10, 0.173844844, 0.984773159, -0.106731459, 0.97914803, -0.172851816))
     end)
 
     Raid:Label("Raid Setting")
@@ -2585,7 +2499,7 @@ end
 end
     
     
-  S:Label("โ1๏ฟฝ7 Misc Shopโ1๏ฟฝ7")
+  S:Label("✄1�7 Misc Shop✄1�7")
     
     S:Button("Random Reall Fruit 3Gem", function()
         TP(CFrame.new(-815.3197021484375, 99900.6015625, -1697.9193115234375))
@@ -2599,7 +2513,7 @@ end
         TP(CFrame.new(1920.786865234375, -9.63898754119873, -490.0093078613281))
     end)
     
-    S:Seperator("๐—ก๏ธ1๏ฟฝ7 Sword๐—ก๏ธ1๏ฟฝ7")
+    S:Seperator("🗡︄1�7 Sword🗡︄1�7")
     
 
     S:Button("Katana", function()
@@ -2650,13 +2564,18 @@ end
         TP(CFrame.new(1606.6729736328125, 40.55868148803711, 585.9592895507812))
     end)
       
+    Mis:Seperator("Wrold2") 
+ 
     S:Seperator("Status wrold2")
     S:Button("Green Hammer", function()
         TP(CFrame.new(-786.479248046875, -2.6676223278045654, 1068.44384765625))
     end)
-
     
-Misc:Seperator("๐’ปServer๐’ป")
+    S:Button("electron", function()
+        TP(CFrame.new(73.139122, 261.281036, 4729.60596, 1, 0, 0, 0, 1, 0, 0, 0, 1))
+    end)
+
+Misc:Seperator("💻Server💻")
     
     spawn(function()
         while wait() do
@@ -2737,7 +2656,7 @@ Misc:Seperator("๐’ปServer๐’ป")
 	game:GetService("TeleportService"):TeleportToPlaceInstance(game.placeId,_G.Job, game.Players.LocalPlayer)
 	end)
 	
-    Misc:Seperator("โ๏ธMiscโ๏ธ")
+    Misc:Seperator("⚙️Misc⚙️")
     
 Misc:Toggle("Bring Fruit",_G.BringFruit,function(value)
         BringFruit = value
@@ -2772,24 +2691,24 @@ Misc:Toggle("Bring Fruit",_G.BringFruit,function(value)
         tool.Parent = plr.Backpack
     end)
     
-    Misc:Button("Max Zoom เธเธนเธกเธญเธญเธเนเธ”เนเนเธกเนเธเนเธเธฑเธ1๏ฟฝ7", function()
+    Misc:Button("Max Zoom ซูมออกได้ไม่จำกัด", function()
 		while wait() do
 			game.Players.LocalPlayer.CameraMaxZoomDistance = 9223372036854718
 			end
 	end)
-	Misc:Button("Day เน1๏ฟฝ7เธงเธฅเธฒเธ•เธญเธเธชเธงเนเธฒเธ1๏ฟฝ7",function()
+	Misc:Button("Day เวลาตอนสว่าง",function()
     game:GetService("RunService").Heartbeat:wait() do
         game:GetService("Lighting").ClockTime = 12
     end
     end)
     
-    Misc:Button("Night เน1๏ฟฝ7เธงเธฅเธฒเธ•เธญเธเธกเธทเธ1๏ฟฝ7",function()
+    Misc:Button("Night เวลาตอนมืด",function()
     game:GetService("RunService").Heartbeat:wait() do
         game:GetService("Lighting").ClockTime = 0
     end
     end)
     
-    Misc:Button("Fly Script (เธญเธขเนเธฒเน1๏ฟฝ7เธญเธฒเนเธเธญเธงเธ”เธเธเนเธเน€เธเธดเธเธซเธฃเธทเธญเธญเนเธฒเธเน€เธเนเธเนเธญเธ”เน1๏ฟฝ7เธ”เธตเธขเธงเนเธ”เธเนเธเธเธเธฐเธเธฃเธฑเธ)",function()
+    Misc:Button("Fly Script (อย่าเอาไปอวดคนในเซิฟหรืออ้างเป็นแอดเดียวโดนแบนนะครับ)",function()
     loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
     end)
     
@@ -3169,10 +3088,11 @@ Set:Dropdown("Select Method",{"Behind","Below","Upper"},function(value)
         end
     end)
 else
-    game.Players.LocalPlayer:Kick("เธฃเธฑเธเนเธกเธเธญเธทเธเนเธกเนเธญHumLek")
+    game.Players.LocalPlayer:Kick("รันแมพอื่นไมไอHumLek")
     wait(1)
     game:Shutdown()
 end
 
     
     
+ 
